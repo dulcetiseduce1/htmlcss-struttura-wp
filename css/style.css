@@ -1,0 +1,77 @@
+/* page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:1080px;
+    margin:0 auto;
+}
+
+/* top */
+
+header {
+    background-color:orchid;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.jumbotron {
+    background-color:khaki;
+    height: 350px;
+    margin: 20px 0;
+}
+
+/* middle */
+
+main{
+    background-color:lightskyblue;
+    width: 1080px;
+    height: 500px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* cards */
+
+.cardbg{
+    background-color:dodgerblue;
+    width: 1080px;
+    position: absolute;
+    bottom: 0; 
+}
+
+.cardbg::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.side-sx, .center, .side-dx{
+    background-color: lightskyblue;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.side-sx,.side-dx{
+    width: 25%;
+    float:left;
+}
+
+.center {
+    width:calc(50% - 40px);
+    margin-right: 20px;
+    margin-left: 20px;
+    float:left;
+}
+
+/* bottom */
+
+footer {
+    height: 40px;
+    background-color:darkviolet;
+    margin-bottom: 20px;
+}
