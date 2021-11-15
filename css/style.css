@@ -43,7 +43,7 @@ main{
     bottom: 0; 
 }
 
-.cardbg::after{
+.clearfix::after{
     clear: both;
     content: '';
     display: table;
